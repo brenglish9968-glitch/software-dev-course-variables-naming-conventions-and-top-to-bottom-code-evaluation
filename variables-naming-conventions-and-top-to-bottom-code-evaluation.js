@@ -37,6 +37,7 @@ let customerName = "Alice";
 let numberOfItems = 5;
 let itemPrice = 20;
 let totalPrice = numberOfItems * itemPrice;
-let purchaseSummary = customerName + " bought " + numberOfItems + " items for $" + totalPrice + ".";
+let storeName = "SmartMart";
+let purchaseSummary = customerName + " bought " + numberOfItems + " items at " + storeName + " for the price of $ " + itemPrice;
 
 console.log(purchaseSummary);
